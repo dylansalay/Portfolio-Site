@@ -2150,6 +2150,10 @@ input, select, textarea {
 		text-decoration: none;
 	}
 
+	#portfolio .links-containter a:hover {
+		color: #000;
+	}
+
 	#skills {
 		position: relative;
 		margin-top: 1.75em;
