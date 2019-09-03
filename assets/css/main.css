@@ -237,9 +237,9 @@ input, select, textarea {
 
 		@media screen and (min-width: 961px) and (max-width: 1320px) {
 
-			.container {
+			/* .container {
 				width: 100%;
-			}
+			} */
 
 		}
 
@@ -2047,7 +2047,6 @@ input, select, textarea {
 
 	#topnav nav {
 		float: right;
-		margin-right: 2em;
 	}
 
 	#topnav ul {
@@ -2092,44 +2091,59 @@ input, select, textarea {
 		width: 100%;
 	}
 
+	#separator .space{
+		height: 2%;
+		width: 100%;
+		backcolor: hotpink;
+	}
+
 	#about section {
 		background: url("../../images/nature.jpg");
 		height: 100%;
 		width: 100%;
 	}
+	#about div .col-md-5 {
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
 
 	#about header {
 		text-align: center;
 		margin-bottom: 1em;
+		color: black;
 	}
 	#about h4 {
 		margin-top: 0;
 		margin-bottom: 0.5rem;
 		clear: right;
 		text-align: left;
-		font-size: 17px;
+		font-size: 20px;
+		color: black;
 	}
 		#about p {
 			margin-top: 0;
-			margin-right: 2.5em;
+			margin-bottom: 1rem;
+			display: block;
+			box-sizing: border-box;
 			clear: right;
 			text-align: left;
-			font-size: 17px;
+			font-size: 1rem;
+			color: black;
 			word-wrap: break-word;
 		}
 			#about img {
 				display: flex;
+				border-radius: 50%;
 				flex-wrap: wrap;
 				align-items: center;
 				justify-content: center;
 				margin-top: 0px;
 				margin-bottom: 10px;
-				margin-left: 20px;
-				margin-right: 20px;
-				max-width: 375px;
-				max-height: 500px;
-				float: left;
-
+				margin-left: 0px;
+				margin-right: 0px;
+				max-width: 75%;
+				max-height: 75%;
+				float: right;
 			}
 
 	#portfolio .links-container {
@@ -2144,8 +2158,8 @@ input, select, textarea {
 
 	#portfolio .links-container a {
 		text-align: center;
-		margin-left: 3em;
-		margin-right: 3em;
+		margin-left: 2em;
+		margin-right: 2em;
 		margin-bottom: .5em;
 		text-decoration: none;
 		font-weight: 400;
@@ -2154,6 +2168,7 @@ input, select, textarea {
 	#portfolio .links-container h4 {
 		text-decoration: none;
 		font-weight: 400;
+		color: black;
 	}
 
 	#portfolio .links-containter a:hover {
@@ -2211,6 +2226,7 @@ input, select, textarea {
 										font-size: 2rem;
 										text-align: center;
 										display: block;
+										color: black;
 									}
 									#skills ul {
 										list-style: none;
@@ -2218,6 +2234,7 @@ input, select, textarea {
 										padding-left: 0;
 										margin-bottom: 0;
 										margin-top: 15px;
+										color: black;
 									}
 		#logo {
 			position: relative;
