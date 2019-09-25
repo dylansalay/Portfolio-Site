@@ -2183,6 +2183,10 @@ input, select, textarea {
 		color: #000;
 	}
 
+	#profxp ul {
+		list-style: none;
+	}
+
 	#skills {
 		position: relative;
 		margin-top: 1.75em;
