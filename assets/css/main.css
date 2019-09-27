@@ -2193,7 +2193,7 @@ input, select, textarea {
 	#portfolio article {
 		display: block;
 		justify-content: center;
-		width: auto;
+		width: 100%;
 		height: auto; 
 		margin: 1em;
 	}
@@ -2222,9 +2222,13 @@ input, select, textarea {
 		font-weight: 400;
 	}
 
+	#portfolio h3 {
+		font-size: 1.5em;
+	}
+
 	#portfolio .links-container h4 {
 		text-decoration: none;
-		font-weight: 400;
+		font-weight: 200;
 		color: black;
 	}
 
@@ -2239,6 +2243,7 @@ input, select, textarea {
 
 	#profxp h3 {
 		color: black;
+
 	}
 
 	#skills {
