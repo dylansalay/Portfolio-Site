@@ -129,6 +129,7 @@ input, select, textarea {
 		font-size: 1.5em;
 		letter-spacing: -1px;
 		font-weight: 500;
+		margin-bottom: .5em;
 	}
 
 		h2.alt {
@@ -2158,13 +2159,14 @@ input, select, textarea {
 		height: auto;
 		padding-top: 8rem;
 		padding-bottom: 8rem;
-		background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url(../../images/ocean.jpeg);
+		background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url(../../images/sunsetcliffs.jpg);
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
 	  }
 
 	.masthead div {
+		margin-top: 13em;
 		text-align: center!important;
 	}
 	
@@ -2195,7 +2197,7 @@ input, select, textarea {
 		justify-content: center;
 		width: 100%;
 		height: auto; 
-		margin: 1em;
+		margin: 2em;
 	}
 
 	#portfolio img {
@@ -2269,39 +2271,41 @@ input, select, textarea {
 
 	#skills .row {
 		justify-content: center;
-		align-items: center;
+		align-items: ;
 		display: flex;
 		flex-wrap: wrap;
-		margin-right: 15%;
-		margin-left: 15%;
+		margin-right: 10%;
+		margin-left: 10%;
 	}
 
 	#skills .col-md-4 {
-	flex: 0 0 33.33333%;
-	max-width: 33.333333%;
-	position: relative;
+	flex: 0 0 25%;
+	max-width: 25%;
 	width: 100%;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding-left: 0px;
+	padding-right: 0px;
+	position: sticky;
 	}
 
 	#skills .box {
 		margin-top: 20px;
 		margin-bottom: 30px;
-		display: block;
+		display: inline-block;
 		box-sizing: border-box;
+		vertical-align: top;
 	}
 
 	#skills .icon {
 		font-size: 50px;
 		color: #262626;
 		margin-bottom: 20px;
-	}
+		
+=	}
 	
 	#skills h5 {
 		width: auto;
 		font: bold;
-		font-size: 2rem;
+		font-size: 1.8rem;
 		text-align: center;
 		display: block;
 		color: black;
@@ -2483,7 +2487,7 @@ input, select, textarea {
 		/* Main */
 
 			#main > section {
-				padding: 3em 0;
+				padding: 2em 0;
 			}
 
 			#main section.cover {
