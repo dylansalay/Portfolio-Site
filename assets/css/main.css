@@ -78,9 +78,9 @@ input, select, textarea {
 		box-sizing: border-box;
 	}
 
-	/* *, *:before, *:after {
+	*, *:before, *:after {
 		box-sizing: inherit;
-	} */
+	}
 
 	body {
 		background: #fff;
@@ -129,7 +129,7 @@ input, select, textarea {
 		font-size: 1.5em;
 		letter-spacing: -1px;
 		font-weight: 500;
-		margin-bottom: .5em;
+		margin: .5em;
 	}
 
 		h2.alt {
@@ -2067,10 +2067,10 @@ input, select, textarea {
 	#topnav a {
 	  color: #444;
 	  text-align: right;
-	  padding: 14px 16px;
+	  padding: 10px 16px;
 	  text-decoration: none;
 		text-transform: uppercase;
-	  font-size: 17px;
+	  font-size: 14px;
 		font-weight: 400;
 	}
 
@@ -2300,7 +2300,7 @@ input, select, textarea {
 		color: #262626;
 		margin-bottom: 20px;
 		
-=	}
+	}
 	
 	#skills h5 {
 		width: auto;
@@ -2349,6 +2349,11 @@ input, select, textarea {
 			font-size: 50px;
 			margin-bottom: 1px;
 		}
+
+		/* #contact .container {
+			box-sizing: border-box;
+		} */
+		
 
 
 
