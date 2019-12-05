@@ -2192,12 +2192,20 @@ input, select, textarea {
 		}
 	  }
 
+	#portfolio .container {
+		margin: auto;
+		width: 80%;
+		padding: 10px;
+	}
+	#portfolio .row {
+		margin: auto;
+	}
 	#portfolio article {
 		display: block;
 		justify-content: center;
-		width: 100%;
+		width: 90%;
 		height: auto; 
-		margin: 2em;
+		margin: 1em auto;
 	}
 
 	#portfolio img {
@@ -2264,21 +2272,20 @@ input, select, textarea {
 		justify-content: center;
 	}
 
-	#skills .col-lg-12 {
+	/* #skills .col-lg-12 {
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	box-sizing: border-box;
 	width: 100%;
 	flex: 0 0 100%;
+	} */
+
+	#skills .skills-row {
+		width: 100%;
 	}
 
-	#skills .row {
-		justify-content: center;
-		align-items: ;
-		display: flex;
-		flex-wrap: wrap;
-		margin-right: 10%;
-		margin-left: 10%;
-	}
-
-	#skills .col-md-4 {
+	#skills .col-md-3 {
 	flex: 0 0 25%;
 	max-width: 25%;
 	width: 100%;
@@ -2344,10 +2351,12 @@ input, select, textarea {
 			margin: 0.5em 0 0 0;
 		}
 
-		#contact ul.icons li a {
+		#contact .icon {
+			margin-bottom: 1.5em
+		}
+		#contact div.icons div a {
 			width: 5em;
 			font-size: 50px;
-			margin-bottom: 1px;
 		}
 
 		/* #contact .container {
