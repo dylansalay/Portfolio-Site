@@ -2272,17 +2272,10 @@ input, select, textarea {
 		justify-content: center;
 	}
 
-	/* #skills .col-lg-12 {
-	justify-content: center;
-	display: flex;
-	flex-wrap: wrap;
-	box-sizing: border-box;
-	width: 100%;
-	flex: 0 0 100%;
-	} */
-
 	#skills .skills-row {
-		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		width: 80%;
 	}
 
 	#skills .col-md-3 {
@@ -2352,18 +2345,14 @@ input, select, textarea {
 		}
 
 		#contact .icon {
-			margin-bottom: 1.5em
+			margin-bottom: 1.5em;
+			margin-top: 1em;
 		}
-		#contact div.icons div a {
+
+		#contact a {
 			width: 5em;
 			font-size: 50px;
 		}
-
-		/* #contact .container {
-			box-sizing: border-box;
-		} */
-		
-
 
 
 /* Footer */
